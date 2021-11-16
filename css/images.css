@@ -1,0 +1,70 @@
+.Image { 
+    grid-area: 1 / 2 / 4 / 4;
+    background-color: white;
+    height: 100vh;
+    position: relative;
+    top: 1vh;
+    left: 11vh;
+
+}
+.comp-img {
+    height: 95vh;
+    padding-left: 10px;
+    
+}
+
+.icons { 
+    grid-area: 3 / 1 / 4 / 2; 
+    background-color: white;
+    height: 175px;
+}
+
+#parent {
+    position: relative;
+}
+
+#circle {
+    position: relative;
+    top: 9vh;
+    left: 10vh;
+    padding-left: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-image: none;
+}
+
+.facebook_1 {
+    position: absolute;
+    padding-top: 5vh;
+    top: 8vh;
+    left: 20vh;
+    z-index: 5;
+}
+
+.facebook_2 {
+    position: absolute;
+    padding-top: 5vh;
+    top: 8vh;
+    left: 51.5vh;
+    z-index: 5;
+}
+
+.twitter_1 {
+    position: absolute;
+    padding-top: 9.5vh;
+    top: 4vh;
+    left: 34.5vh;
+    z-index: 5;
+}
+
+.twitter_2 {
+    position: absolute;
+    padding-top: 5vh;
+    top: 8.5vh;
+    left: 66vh;
+    z-index: 5;
+}
+
+
+
